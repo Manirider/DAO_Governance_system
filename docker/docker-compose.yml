@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  dao-governance:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    environment:
+      - NODE_ENV=development
+    command: sh -c "echo '=== DAO Governance Docker Build ===' && npm list --depth=0 && echo '=== Dependencies installed successfully! ==='"
