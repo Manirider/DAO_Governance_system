@@ -51,7 +51,7 @@ Holds ETH and ERC-20 tokens belonging to the DAO. All withdrawals require a succ
 
 ### Installation
 
-```bash
+
 
 # Install dependencies
 npm install
@@ -69,12 +69,10 @@ npx hardhat compile
 
 The fastest way to see everything working:
 
-```bash
 
 npx hardhat node
 
 npx tsx scripts/verify.ts
-```
 
 This script deploys all contracts, creates a proposal to withdraw ETH from the Treasury, votes on it, waits for the timelock, and executes it—demonstrating the complete governance flow.
 
