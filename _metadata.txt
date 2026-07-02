@@ -1,0 +1,8 @@
+Repository: DAO_Governance_system
+Description: production-grade DAO governance system with off-chain voting
+Topics: portfolio-project
+
+GitHub Settings Updates:
+1. Go to https://github.com/Manirider/DAO_Governance_system/settings
+2. Update the Description field to: production-grade DAO governance system with off-chain voting
+3. Add the following tags under Topics: portfolio-project
